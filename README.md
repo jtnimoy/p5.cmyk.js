@@ -1,6 +1,8 @@
 # p5.cmyk.js
 CMYK color for p5js
 
+![screenshot](screenshot1.png)
+
 #todo: opacity
 
 ```
