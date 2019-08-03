@@ -6,6 +6,11 @@
 	this.y = yy;
 	this.k = kk;
 	
+	this.inverse = function() {
+	    return new Cmyk(1-this.c , 1-this.m , 1-this.y, 1-this.k);
+	}
+
+
 	this.toColor = function(a) {
 	    var nc = (this.c * (1-this.k) + this.k);
 	    var nm = (this.m * (1-this.k) + this.k);
